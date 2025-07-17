@@ -11,7 +11,7 @@ import Unauthorized from "@/pages/unauthorized";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
 import { useSupabaseAuth } from "@/hooks/useSupabaseAuth";
-import { useVercelAuth } from "@/lib/vercel-auth"; 
+import { useVercelAuth } from "@/lib/vercel-auth";  
 
 function Router() { 
   // Usar hook especial para Vercel em produção 

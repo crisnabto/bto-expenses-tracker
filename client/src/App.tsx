@@ -16,7 +16,7 @@ import { useVercelAuth } from "@/lib/vercel-auth";
 function Router() { 
   // Usar hook especial para Vercel em produção 
   const isProduction = import.meta.env.PROD;
-  const supabaseAuth = useSupabaseAuth();
+  const supabaseAuth = useSupabaseAuth(); 
   const vercelAuth = useVercelAuth();
   
   const { user, loading, isUnauthorized } = isProduction ? vercelAuth : supabaseAuth;

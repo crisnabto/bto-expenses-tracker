@@ -1,0 +1,13 @@
+node_modules
+.git
+.env
+.replit
+.upm
+replit.nix
+migrations
+*.md
+tsconfig.json
+vite.config.ts
+postcss.config.js
+tailwind.config.ts
+components.json
